@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+form{
+    width: calc(100%/12*4);
+    min-width: 260px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color:blue;
+}
+h1{
+    margin: 30px;
+    font-size: 38px;
+    
+}
+label{
+    width: 100%;
+    margin-top: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+}
+.first{
+    position: absolute;
+    background-color: yellow;
+    height: 28px;
+    width: 370px;
+    top: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.secound{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+}
+ul{
+    border-radius: 10px;
+    width: 80%;
+    list-style: none;
+    display: flex;
+    border: 1px solid gray;
+    justify-content: center;
+    flex-direction: column;
+}
+ul li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+}
+input{
+    display: flex;
+    border: none;
+    font-size: 24px;
+    height: 50px;
+    width: 60%;
+}
+input:focus{
+    outline: none;
+}
+.box{
+    width: 20px;
+    height: 20px;
+    border: 1px solid grey;
+    fill: grey;
+    border-radius: 50%;
+    padding: 5px;
+
+}
+button{
+    width: 40%;
+    background-color:#AA68FE;
+    border: none;
+    height: 50px;
+    color: #FFFFFF;
+    font-size: 14px;
+    display: flex;
+    border-radius: 25px;
+    align-items: center;
+    margin: 20px;
+
+}
+span{
+    height: 100%;
+    border-radius: 50px;
+    width: 50px;
+    background-color: #AA68FE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button .add{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.secound svg{
+    width: 30px;
+    fill: gray;
+}
+
+.main{
+    position: relative;
+    width: 372px;
+    min-height: 255px;
+    border: 1px solid gray;
+    border-radius: 16px;
+}
+
